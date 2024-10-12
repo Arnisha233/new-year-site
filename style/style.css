@@ -9,7 +9,6 @@
 /* shared styles  start */
 .content-width {
   max-width: 1320px;
-  height: 600px;
   margin: 0 auto;
 }
 /* shared styles  end */
@@ -433,3 +432,72 @@
   height: 100%;
 }
 /* portfolio section end */
+
+/* subscribe section start */
+.subscribe {
+  margin-top: 100px;
+  min-height: 400px;
+  background-color: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+}
+.subscribe-content {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe .logo {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+}
+.subscribe-title {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 896px;
+  margin-top: 22px;
+}
+.subscribe-form form {
+  margin-top: 48px;
+  display: flex;
+}
+.subscribe-form input {
+  width: 648px;
+  height: 72px;
+  border: none;
+  padding: 25px 30px;
+  font-size: 20px;
+  background: #fff;
+  border-radius: 50px 0 0 50px;
+}
+.subscribe-form .btn {
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: none;
+}
+/* subscribe section end */
